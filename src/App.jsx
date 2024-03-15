@@ -1,7 +1,11 @@
-import { useState } from "react";
+import NutritionTable from "./components/NutritionTable";
 
 function App() {
-  return <> </>;
+  return (
+    <>
+      <NutritionTable />
+    </>
+  );
 }
 
 export default App;
