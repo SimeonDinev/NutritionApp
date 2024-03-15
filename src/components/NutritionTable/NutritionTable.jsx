@@ -1,7 +1,11 @@
+import SearchFood from "./SearchFood";
+import SelectFoodTable from "./SelectedFoodTable";
+
 export default function NutritionTable() {
   return (
     <>
-      <p>Nutrition Table Page</p>
+      <SelectFoodTable />
+      <SearchFood />
     </>
   );
 }

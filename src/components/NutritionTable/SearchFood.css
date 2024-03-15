@@ -1,0 +1,7 @@
+.search-bar {
+  margin: 5px 20px;
+  padding: 8px;
+  border-radius: 10px;
+  border: solid 2px gainsboro;
+  outline: invert;
+}

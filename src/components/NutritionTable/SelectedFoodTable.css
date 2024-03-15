@@ -1,0 +1,23 @@
+html {
+  font-family: sans-serif;
+}
+
+.table-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 250px;
+}
+
+.table-heading {
+  text-align: center;
+  padding-top: 3px;
+  color: whitesmoke;
+}
+
+.description-cell {
+  width: 50%;
+}
+.nutrients-cells {
+  width: 10%;
+}
