@@ -1,4 +1,4 @@
-import { Table } from "react-bootstrap";
+import { Table, Button } from "react-bootstrap";
 import "./SearchFood.css";
 
 export default function SearchFood() {
@@ -9,11 +9,23 @@ export default function SearchFood() {
           <thead>
             <tr>
               <th colSpan="5" style={{ backgroundColor: "#C18263" }}>
-                <input
-                  type="text"
-                  className="search-bar"
-                  placeholder="Search food..."
-                />
+                <div className="search-bar-and-button">
+                  <input
+                    type="text"
+                    className="search-bar"
+                    placeholder="Search food..."
+                  />
+                  <Button
+                    variant="light"
+                    style={{
+                      marginRight: "20px",
+                      padding: "0px 10px",
+                      height: "43px",
+                    }}
+                  >
+                    Add food
+                  </Button>
+                </div>
               </th>
             </tr>
             <tr>

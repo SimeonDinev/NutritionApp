@@ -5,6 +5,8 @@ import ReactDOM from "react-dom/client";
 import NutritionTable from "./components/NutritionTable/NutritionTable.jsx";
 import AddFood from "./components/AddFood/AddFood.jsx";
 import NotFoundPage from "./components/NotFoundPage.jsx";
+
+import "./Main.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const router = createBrowserRouter([
